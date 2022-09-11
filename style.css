@@ -1,9 +1,11 @@
-.header {
-  display: flex;
-  background-color: #00244a;
-  color: white;
-  flex-direction: row-reverse;
-  justify-content: center;
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+body, html {
+  height: 100%;
+  margin: 0%;
 }
 
 .navigation {
@@ -11,12 +13,51 @@
   background-color: #00244a;
   color: white;
   justify-content: flex-end;
-  gap: 14px;
+  gap: 14px;  
   font-weight: bold;
   height: 4rem;
   align-items: center;
   margin: 0;
 }
+
+.navigation a {
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+
+ul.navigation {
+  flex-wrap: wrap;
+}
+
+.header {
+  /*position: relative;
+  background-color: #00244a;
+  color: white;
+  flex-direction: row-reverse;
+  justify-content: center;
+  display: flex; */
+  
+  background-image:url(/home/greg/Desktop/landing-page/imgs/jaime-arrieta-OSzlbMcf9Hg-unsplash.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-box {
+  position: absolute;
+  background: white;
+  opacity: 60%;
+  color: #00244a;
+  font: 16px;
+  padding: 8px;
+  height: 100px;
+  width: 200px;
+  flex-wrap: wrap;
+
+}
+
 
 li,a {
     text-decoration: none;
@@ -37,12 +78,16 @@ li:hover{
   height: 15rem;
   justify-content: center;
   gap: 1rem;
-  margin: 3rem;
+  margin-top: 20px;
+  margin-bottom: 300px;
   height: 25rem;
+  flex-wrap: wrap;
 }
 
 .travel-box :hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
+  flex-wrap: wrap;
+  max-height: 100%;
   /* enlarges imgs mouse over*/
 }
 
@@ -55,10 +100,12 @@ h2 {
   color: black;
 }
 
+
 .center-logos {
     display: flex;
     justify-content: center;
     gap: 10px; 
+    padding-top: 30px;
 }
 
 .fa {
