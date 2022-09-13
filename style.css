@@ -13,9 +13,9 @@ body, html {
   background-color: #00244a;
   color: white;
   justify-content: flex-end;
-  gap: 14px;  
+  gap: 4px;  
   font-weight: bold;
-  height: 4rem;
+  height: 3rem;
   align-items: center;
   margin: 0;
 }
@@ -30,30 +30,23 @@ ul.navigation {
   flex-wrap: wrap;
 }
 
-.header {
-  /*position: relative;
-  background-color: #00244a;
-  color: white;
-  flex-direction: row-reverse;
-  justify-content: center;
-  display: flex; */
-  
+.bg-img {
   background-image:url(/home/greg/Desktop/landing-page/imgs/jaime-arrieta-OSzlbMcf9Hg-unsplash.jpg);
-  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 15%;
 }
 
 .text-box {
   position: absolute;
   background: white;
-  opacity: 60%;
+  opacity: 80%;
   color: #00244a;
   font: 16px;
   padding: 8px;
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  width: 250px;
   flex-wrap: wrap;
 
 }
@@ -64,7 +57,7 @@ li,a {
     list-style: none;
     color: white;
     font-weight: bold;
-    padding: 1rem;
+    padding: .5rem;
 
 }
 
@@ -79,9 +72,10 @@ li:hover{
   justify-content: center;
   gap: 1rem;
   margin-top: 20px;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
   height: 25rem;
   flex-wrap: wrap;
+  
 }
 
 .travel-box :hover {
