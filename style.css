@@ -25,31 +25,41 @@ body, html {
   flex-wrap: wrap;
 }
 
-
 ul.navigation {
   flex-wrap: wrap;
+  
 }
 
+/*----Back Ground Image---*/
 .bg-img {
   background-image:url(/home/greg/Desktop/landing-page/imgs/jaime-arrieta-OSzlbMcf9Hg-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15%;
+  padding: 100px 100px;
 }
 
+/*---Back ground text---*/
 .text-box {
-  position: absolute;
-  background: white;
-  opacity: 80%;
   color: #00244a;
   font: 16px;
-  padding: 8px;
-  height: 200px;
-  width: 250px;
+  height: 500px;
+  width: 320px;
   flex-wrap: wrap;
-
 }
+
+p, h1 {
+  font-size: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+}
+
 
 
 li,a {
@@ -61,28 +71,26 @@ li,a {
 
 }
 
+/*---gives opacity on mouse-over---*/
 li:hover{
   opacity: 0.7;
-  /*gives opacity on mouse-over*/
 }
 
 .travel-box {
   display: flex;
-  height: 15rem;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 20px;
-  margin-bottom: 250px;
   height: 25rem;
   flex-wrap: wrap;
-  
 }
 
+ /*---enlarge img mouse over---*/
 .travel-box :hover {
   transform: scale(1.04);
   flex-wrap: wrap;
   max-height: 100%;
-  /* enlarges imgs mouse over*/
+ 
 }
 
 img {
@@ -94,16 +102,18 @@ h2 {
   color: black;
 }
 
-
-.center-logos {
+.footer-logos {
     display: flex;
     justify-content: center;
     gap: 10px; 
-    padding-top: 30px;
+    background-color: #00244a;
+    bottom: 0;  
+    position: fixed;
+    width: 100%;
 }
 
 .fa {
-    padding: 20px;
+    padding: 15px;
     font-size: 50px;
     width: 15px;
     text-align: center;
