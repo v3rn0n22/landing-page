@@ -6,6 +6,7 @@
 body, html {
   height: 100%;
   margin: 0%;
+  font-family: "lato", sans-serif;
 }
 
 .navigation {
@@ -20,10 +21,13 @@ body, html {
   margin: 0;
 }
 
+
 .navigation a {
   font-size: 16px;
   flex-wrap: wrap;
 }
+
+
 
 ul.navigation {
   flex-wrap: wrap;
@@ -37,14 +41,19 @@ ul.navigation {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  flex-wrap: wrap;
 }
 
 /*---Back ground text---*/
 .text-box {
   color: #00244a;
   font: 16px;
-  height: 500px;
+  height: 300px;
   width: 320px;
+  padding-left: 100px;
   flex-wrap: wrap;
 }
 
@@ -52,15 +61,79 @@ p, h1 {
   font-size: 40px;
 }
 
-.form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: white;
-  width: 400px;
+.signupFrm {
+  padding-right: 150px;
+  
+  
 }
 
+.form {
+  background-color: white;
+  width: 300px;
+  border-radius: 8px;
+  padding: 40px 20px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  opacity: 90%;
+}
 
+.title {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+  height: 40px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.input {
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #bababb;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;                      
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+.label {
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: #00244a;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  
+}
+
+.submitBtn:hover {
+  background-color: #10437a;
+  transform: translateY(-2px);
+}
+
+.input:focus {
+  border: 2px solid #00244a;
+}
 
 li,a {
     text-decoration: none;
